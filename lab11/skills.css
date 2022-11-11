@@ -4,11 +4,11 @@ h1, h2, p, td, th, li, ol, ul {
 body {background-color: #d8d6d6;
         }
 
-h1 {color: #606163;
+h1 {color: #000000;
     font-size: 60px;
     text-align: center; }
     
-h2 {color: #737478;
+h2 {color: #000000;
     font-size: 30px}
      
 a:link {color: #000000}
