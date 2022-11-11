@@ -18,12 +18,12 @@ a:visited {color: #000000}
 a:hover {color:#000000;}
 
 nav
-{background-color: #8d8d8d;
+{background-color: #d6d6d6;
 padding: 10px;
 margin-bottom: 10px;
 border: 2px solid #2b6de0}
 
-nav a {color: #8d8d8d}
+nav a {color: #d6d6d6}
 nav a:hover {background-color: #2b6de0;}
 
 .copy {float:lefts}
@@ -33,13 +33,13 @@ margin-block: -20px;}
 
 .part1 {padding: 20px; margin: 20px}
 .part1 {display: flex;
-    background-color: #dddddd; 
+    background-color: #d6d6d6; 
     border-radius:1em}
 .contact {flex: 1;}
 .mail {flex: 2;}
 
 .part2 {padding: 20px; margin: 20px;
-    background-color: #dddddd; 
+    background-color: #d6d6d6; 
     border-radius: 1em; }
 .part2 {display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}
 .location {float: left; margin: 30px;}
