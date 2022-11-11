@@ -11,11 +11,11 @@ h1 {color: #606163;
 h2 {color: #737478;
     font-size: 30px}
      
-a:link {color: #97989c}
+a:link {color: #000000}
 
-a:visited {color: #6c6c70}
+a:visited {color: #000000}
 
-a:hover {color:#e8ecff;}
+a:hover {color:#000000;}
 
 nav
 {background-color: #ffffff;
