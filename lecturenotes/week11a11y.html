@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #skip {
+            background-color: orange;
+            border: 1px solid black;
+            padding: 2px;
+            position: absolute; 
+            left: -999px;
+        }
+        #skip:focus {
+            left:10px;
+            top: 15px;
+        }
+    </style>
+
+</head>
+<body>
+    <a id="skip">Skip to Content</a><br>
+    <a href="http://www.syr.edu"tabindex="3">SU</a><br>
+    <a href="http://amazon.com" tabindex="2">Amazon</a><br>
+    <a href="http://google.com" tabindex="1">Google</a>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quas tempore veniam inventore minima voluptatibus, corporis officia laborum fuga et neque ipsa libero non nam adipisci iusto provident, repudiandae ea.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, est culpa. Autem vel reprehenderit officiis atque quasi dolor quisquam, unde a iusto? Culpa sit suscipit reprehenderit in adipisci hic dignissimos.</p>
+    <p id="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt ad officiis quisquam, eaque inventore adipisci nobis! Rem dignissimos corporis fugit sit aspernatur voluptatem aliquid, porro dolore corrupti ducimus, reprehenderit veniam.</p>
+</body>
+</html>
