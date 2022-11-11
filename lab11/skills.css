@@ -1,7 +1,7 @@
 h1, h2, p, td, th, li, ol, ul {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 
-body {background-color: #d8d6d6;
+body {background-color: #091D3E;
         }
 
 h1 {color: #000000;
@@ -18,12 +18,12 @@ a:visited {color: #000000}
 a:hover {color:#000000;}
 
 nav
-{background-color: #ffffff;
+{background-color: #8d8d8d;
 padding: 10px;
 margin-bottom: 10px;
 border: 2px solid #2b6de0}
 
-nav a {color: #ffffff}
+nav a {color: #8d8d8d}
 nav a:hover {background-color: #2b6de0;}
 
 .copy {float:lefts}
@@ -33,13 +33,13 @@ margin-block: -20px;}
 
 .part1 {padding: 20px; margin: 20px}
 .part1 {display: flex;
-    background-color: #ffffff; 
+    background-color: #dddddd; 
     border-radius:1em}
 .contact {flex: 1;}
 .mail {flex: 2;}
 
 .part2 {padding: 20px; margin: 20px;
-    background-color: #ffffff; 
+    background-color: #dddddd; 
     border-radius: 1em; }
 .part2 {display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}
 .location {float: left; margin: 30px;}
@@ -57,7 +57,7 @@ margin-block: -20px;}
 .bigbox2 {display: flex;
     padding: 20px;
     background-color: #2b6de0;
-    color: #ffffff;
+    color: #dddddd;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius:1em}
 
