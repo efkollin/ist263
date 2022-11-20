@@ -1,3 +1,92 @@
 /*All Pages*/
 body {background-color: rgb(108, 189, 233);
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+
+.navigation {
+    background-color: rgb(233, 239, 240);
+    border: black 1px solid;
+    padding:20px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    margin-bottom: 10px;}
+nav a {
+    color:black;}
+.summerhome {
+    size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.center {display:flex;
+justify-content: center;
+}
+.sunset {
+    max-width: 100%; width: 100%;
+}
+.section1 {
+    display: flex;
+    padding: 30px;
+}
+.israel{
+    display:flex;
+    flex: 1;
+    flex-basis:50%;
+   align-items: center;
+   text-align: center;
+}
+.israelpic{
+    display:flex;
+    flex: 2;
+    flex-basis:50%;
+    justify-content: center;
+}
+
+.section2 {
+    display: flex;
+    padding: 30;
+    border-radius:1em;
+}
+.desert {
+    display:flex;
+    flex: 1;
+    flex-basis:50%;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.sandwhich {
+    display:flex;
+    flex: 2;
+    flex-basis:50%;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.border{
+    border: 2px solid rgb(233, 239, 240);
+}
+
+.container {display: flex;
+    padding: 20px;}
+.left {
+    flex:1;
+    flex-direction: column;
+    align-content:stretch;
+    flex-basis:50%;
+    padding: 7.5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;}
+.right {flex: 2;
+    flex-direction: column;
+    flex-basis:50%;
+    align-content:stretch;
+    padding:7.5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;}
